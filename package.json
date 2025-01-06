@@ -1,0 +1,18 @@
+{
+  "name": "stylus-as-support",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "asbuild": "asc assembly/token_stylus.ts -b out/token_stylus.wasm -O3 --sourceMap --optimize"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "as-bignum": "^0.3.1",
+    "assemblyscript": "^0.19.23",
+    "near-sdk-as": "^3.2.3"
+  }
+}
