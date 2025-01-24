@@ -4,7 +4,7 @@ import {
     logging, 
     PersistentMap,
 } from "near-sdk-as";
-import { u128Safe } from "./u128Safe"; // Importing u128Safe
+import { u128Safe } from "./u128Safe";
 
 // Custom assert function
 function assert(condition: boolean, message: string): void {

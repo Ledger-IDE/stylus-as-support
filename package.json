@@ -13,6 +13,6 @@
   "devDependencies": {
     "as-bignum": "^0.3.1",
     "assemblyscript": "^0.19.23",
-    "near-sdk-as": "^3.2.3"
+    "near-sdk-as": "^1.2.1"
   }
 }
